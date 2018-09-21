@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+  clrscr();
+  int area,base,height;
+  scanf("%d%d",&base,&height);
+  area = 0.5*(base*height);
+  printf("%d",area);
+ }
+ 
