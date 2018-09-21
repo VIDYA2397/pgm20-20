@@ -10,3 +10,21 @@ int main()
   printf("%d",area);
  }
  
+//using struct
+
+#include<stdio.h>
+#inclue<conio.h>
+int main()
+{
+  clrscr();
+  int area;
+  struct triangle
+  {
+    int base;
+    int height;
+  };
+  struct triangle a;
+  scanf("%d%d",&a.base,&a.height);
+  area = 0.5*(a.base*a.height);
+  printf("%d",area);
+ }
